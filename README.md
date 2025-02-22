@@ -8,24 +8,25 @@ The files in the 'weekly meetings' folder and 'Documents' have been renamed foll
 ### Project organization
 The whole project files has been reorganized according to a standard project structure:
 
--project/
---data/
----dataset-csv
---docs/
----Documents/
----weekly-meetings/
----Report.pdf
---images/
----dataset-image.png
----predictions.png
---src/
----gen-data.py
----untitled1.py
----untitled2.py
---reports/
----Report.ipynb
---LICENSE.md
---README.md
+
+project/
+├── data/
+│   └── dataset.csv
+├── docs/
+│   ├── Documents/
+│   ├── weekly-meetings/
+│   └── Report.pdf
+├── images/
+│   ├── dataset-image.png
+│   └── predictions.png
+├── src/
+│   ├── 01_generate-data.py
+│   ├── 02_visualize-data.py
+│   └── 03_plot-predictions.py
+├── reports/
+│   └── Report.ipynb
+├── LICENSE.md
+└── README.md
 
 ### Virtual Environments Management
 -Create environment- 'dstoolbox'
