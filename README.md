@@ -1,24 +1,31 @@
+
+# Project 
+This projects aims on understanding file naming conventions, project structure, and virtual environments.
+
+### File Naming
+The files in the 'weekly meetings' folder and 'Documents' have been renamed following best practices for time, data, and file formatting conventions.
+
 ### Project organization
 The whole project files has been reorganized according to a standard project structure:
 
-project/
-├── data/
-│   └── dataset-csv
-├── docs/
-│   ├── Documents/
-│   ├── weekly-meetings/
-│   └── Report.pdf
-├── images/
-│   ├── dataset-image.png
-│   └── predictions.png
-├── src/
-│   ├── gen-data.py
-│   ├── untitled1.py
-│   └── untitled2.py
-├── reports/
-│   └── Report.ipynb
-├── LICENSE.md
-└── README.md
+-project/
+--data/
+---dataset-csv
+--docs/
+---Documents/
+---weekly-meetings/
+---Report.pdf
+--images/
+---dataset-image.png
+---predictions.png
+--src/
+---gen-data.py
+---untitled1.py
+---untitled2.py
+--reports/
+---Report.ipynb
+--LICENSE.md
+--README.md
 
 ### Virtual Environments Management
 -Create environment- 'dstoolbox'
